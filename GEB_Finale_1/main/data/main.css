@@ -1,0 +1,30 @@
+html{
+    font-family: Helvetica; 
+    display: inline-block; 
+    margin: 0px auto; 
+    text-align: center;
+}
+body{
+    margin-top: 50px;
+    /*background: #0E101C; */
+    font-size: 50px;
+}
+
+t{
+    font-size: 60px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+t1{
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+p{
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 10px;
+}

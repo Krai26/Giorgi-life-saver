@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <t>Giorgi Salvavita</t>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+       <!--- <meta http-equiv="refresh" content="2" > --->
+
+        <link rel="stylesheet" href="main.css">
+             
+    </head>
+
+    <body style= "background-image: url('bgimage.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;"> 
+
+    <!-- You can use url("https://cdn3.vectorstock.com/i/1000x1000/66/37/cloud-with-blue-sky-background-vector-24006637.jpg") for minimal stress on the ESP32 board. -->
+
+        <center>
+            <div id="webpage">
+                <strong>
+                    <p>Temperature: <a id="temp_id1"></a> C°</p>
+                    <p>CO2: <a id="co2_id1"></a> ppm</p>
+                    <p>CO: <a id="co_id1"></a> ppm</p>
+                    <p>Hr: <a id="hum_id1"></a> %</p>
+                    <p><div id="Alarm1"></div><!--<br><p id="alarmAcquire"></p>--></p>
+                </strong>    
+            </div> 
+                        
+        </center>
+
+    <script src="index.js"></script>
+    
+        
+    </body>
+
+</html>
